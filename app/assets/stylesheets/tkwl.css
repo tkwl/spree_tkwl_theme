@@ -3,7 +3,12 @@
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_self
- *= require_tree .
- *= require spree/frontend/spree_multi_currency
+
+ *= require style
+ *= require bootstrap.min
+ *= require blueimp-gallery-indicator
+ *= require blueimp-gallery-video
+ *= require blueimp-gallery.min
+ *= require bootstrap-image-gallery.min
+ *= require lazyYT.min
 */
